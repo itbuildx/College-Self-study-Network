@@ -1,0 +1,392 @@
+.a1 {
+  width: 1100px;
+}
+article h2{
+    margin: 10px 0;
+}
+.article1{
+    width: 100%;
+    height: 500px;
+    margin: 10px 0;
+    font-family: "宋体", arial;
+    font-size: 14px;
+    font-weight: normal;
+    
+}
+
+.article1 .arleft{
+    float: left;
+    width: 31%;
+    height: 100%;
+    overflow: hidden;
+    margin-right: 3.5%;
+}
+.xinzpTxt {
+    padding: 22px 20px;
+    background: #f8f8f8;
+}
+.xinzpTxt h5{
+    font-family: "微软雅黑";
+    font-size: 16px;
+}
+.xinzpTxt p {
+    color: #666;
+    padding: 10px 0;
+    line-height: 26px;
+}
+.arleft ul {
+    height: auto;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.arleft li {
+    list-style: square;
+    height: auto;
+    padding: 6px;
+    margin: 5px;
+    padding-left: 14px;
+    position: relative;
+}
+.arleft li .sanwen {
+    color: #84a663;
+}
+.arleft li::before {
+    width: 3px;
+    height: 3px;
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: 0;
+    background: #d1d1d1;
+}
+.arleft li p {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.arleft li span {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    padding-top: 2px;
+}
+.arleft ul li p a span{color: #999;}
+.arleft li .xiaoshuo {
+    color: #195aa4;
+}
+.arleft li a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    padding-left: 8px;
+}
+
+.article1 .armiddle{
+        width: 31%;
+        height: 100%;
+        overflow: hidden;
+        float: left;
+        margin-right: 3.5%;
+}
+.armiddle .midimg{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+}
+.midimg a {
+    display: block;
+    width: 44%;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+.midimg a span{
+    position: absolute;
+    top: 120px;
+    right: 2px;
+    font-size: 14px;
+    padding: 0 3px;
+    letter-spacing: 1.5;
+    line-height: 20px;
+    height: auto;
+    font-weight: 800;
+    text-align: left;
+}
+.armiddle ul{
+    height: auto;
+    overflow: hidden;
+    padding-top: 8px;
+}
+.armiddle li{
+    list-style: square;
+    height: auto;
+    padding: 8px 0;
+    padding-left: 14px;
+    position: relative;
+}
+
+.armiddle li::before {
+    width: 3px;
+    height: 3px;
+    margin-left: 3px;
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: 0;
+    background: #d1d1d1;
+}
+.armiddle li p {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.armiddle li .leibie {
+    color: #195aa4;
+    position: relative;
+    padding-right: 8px;
+    padding-left: 0;
+}
+.armiddle li .suibi {
+    color: #c19d8f;
+}
+.armiddle li .leibie {
+    color: #84a663;
+}
+.armiddle li .xiaoshuo {
+    color: #195aa4;
+}
+.armiddle li .shige {
+    color: #ef9b4a;
+}
+.armiddle li a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    padding-left: 8px;
+}
+.armiddle li span {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    padding-top: 2px;
+}
+.article1 .arright{
+
+    margin-right: 0;
+    width: 31%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+
+}
+.arright ul{
+    height: auto;
+    overflow: hidden;
+    padding-top: 8px;
+}
+.arright li{
+    list-style: square;
+    height: auto;
+    padding: 8px 0;
+    padding-left: 14px;
+    position: relative;
+}
+
+.arright li::before {
+    width: 3px;
+    height: 3px;
+    margin-left: 3px;
+    content: "";
+    position: absolute;
+    top: 22px;
+    left: 0;
+    background: #d1d1d1;
+}
+.arright li p {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.arright li .leibie {
+    color: #195aa4;
+    position: relative;
+    padding-right: 8px;
+    padding-left: 0;
+}
+.arright li .suibi {
+    color: #c19d8f;
+}
+.arright li .leibie {
+    color: #84a663;
+}
+.arright li .xiaoshuo {
+    color: #195aa4;
+}
+.arright li .shige {
+    color: #ef9b4a;
+}
+.arright li a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    padding-left: 8px;
+}
+.arright li a:hover{
+    color: #e70b20;
+}
+.arright li span {
+    display: block;
+    font-size: 12px;
+    color: #999;
+    padding-top: 2px;
+}
+.sort{
+    height: 550px;
+    margin: 10px auto;
+    font-family: "宋体", arial;
+    font-size: 14px;
+    font-weight: normal;
+}
+.sortleft,.sortmiddle,.sortright{
+    width: 31%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-left: 3.5%;
+}
+.sort .sortleft{
+    margin-left: 0;
+}
+.sortleft,.sortmiddle,.sortright{
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 10px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.sortleft h3,.sortmiddle h3,.sortright h3{
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 10px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.sortleft h3 span,.sortmiddle h3 span,.sortright h3 span{
+    border: none;
+    display: inline-block;
+    height: 50px;
+    border-bottom: 2px solid #1358a6;
+    margin-bottom: -1px;
+    font-size: 22px;
+    color: #333;
+}
+.more_02 {
+    opacity: .5;
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: right;
+    margin-top: 15px;}
+.sortleft dl{
+    height: 146px;
+    width: 100%;
+}
+.sortleft dt{
+    float: left; 
+    width: 120px;
+    height: 146px;
+    overflow: hidden;
+}
+ dd h6 {
+    font-size: 16px;
+    line-height: 30px;
+    font-family: "微软雅黑";
+}
+dd p {
+    text-indent: 31px;
+    padding-top: 10px;
+    line-height: 26px;
+}
+.sortleft dd{
+    padding: 0 17px;
+    overflow: hidden;
+}
+.sortleft ul{
+    padding-top: 10px;
+}
+.sortleft li::before {
+    width: 3px;
+    height: 3px;
+    margin-left: 3px;
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 0;
+    background: #d1d1d1;
+}
+.sortleft ul li{
+    height: auto;
+    padding-top: 8px 0;
+    padding-left: 14px;
+    position: relative;
+}
+.sortmiddle dt{
+    float: left; 
+    width: 120px;
+    height: 146px;
+    overflow: hidden;
+}
+.sortmiddle dd{
+    padding: 0 17px;
+    overflow: hidden;
+}
+.sortmiddle{
+    padding-top: 10px;
+}
+.sortmiddle li::before {
+    width: 3px;
+    height: 3px;
+    margin-left: 3px;
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 0;
+    background: #d1d1d1;
+}
+.sortmiddle ul li{
+    height: auto;
+    padding-top: 8px 0;
+    padding-left: 14px;
+    position: relative;
+}
+.sortright dt{
+    float: left; 
+    width: 120px;
+    height: 146px;
+    overflow: hidden;
+}
+.sortright dd{
+    padding: 0 17px;
+    overflow: hidden;
+}
+.sortright{
+    padding-top: 10px;
+}
+.sortright li::before {
+    width: 3px;
+    height: 3px;
+    margin-left: 3px;
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 0;
+    background: #d1d1d1;
+}
+.sortright ul li{
+    height: auto;
+    padding-top: 8px 0;
+    padding-left: 14px;
+    position: relative;
+}

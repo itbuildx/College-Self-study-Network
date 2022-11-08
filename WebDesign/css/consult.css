@@ -1,0 +1,48 @@
+.box{
+    height: 500px;
+    margin-top: 10px;
+}
+.leftbox{
+    float: left;
+    width: 500px;
+    height: 470px;
+}
+.leftbox img{
+    width: 500px;
+    height: 425px;
+    margin: 10px;
+}
+.rightbox{
+    margin-right:10px;
+    float: right;
+    width: 550px;
+    height: 470px;
+    overflow: hidden;
+}
+.rightbox ul{
+    margin-top: 3px;
+}
+.rightbox ul li{
+    float: left;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 11px;
+    overflow: hidden;
+ }
+ .time.red {
+    color: #f54129;
+}
+.rightbox .time {
+    float: right;
+    color: #f54129;
+    font-size: 14px;
+}
+.rightbox ul li a {
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+}
+.rightbox ul li a:hover{
+    color: #4e90e1;
+}

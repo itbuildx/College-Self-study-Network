@@ -1,0 +1,236 @@
+article{
+    font: 14px "微软雅黑";
+}
+#firsta{
+    padding-left: 0;
+}
+
+.rbox{
+    float: right;
+    margin-top: 10px;
+    width: 355px;
+}
+.rbox1{
+    width: 340px;
+    height: 102px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.rbox .img1{
+    width: 140px;
+    height: 81px;
+    float: left;
+}
+.rbox .descr{
+    padding-left: 10px;
+}
+.rbox .span2{
+    line-height: 50px;
+    font-size: 14px;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left:10px; 
+}
+.rbox .span3{
+    color: #ccc;
+    padding-left: 10px;
+    margin: 5px;
+}
+.rbox a{
+    display: inline-block;
+    color: #31424e;
+    object-fit: cover;
+    transition: 0.2s;
+}
+.rbox a:hover{
+    transform: scale(1.1);
+}
+.textteach>h3{
+    border-bottom: 1px solid #282121;
+    margin-bottom: 10px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.textteach>h3 span{
+    border: none;
+    display: inline-block;
+    height: 50px;
+    border-bottom: 2px solid #1358a6;
+    margin-bottom: -1px;
+    font-size: 22px;
+    color: #333;
+}
+.lbox{
+    margin-top: 10px;
+    float: left;
+    width: 740px;
+    height: 850px;
+
+}
+.lbox ul{
+
+    margin-top: 10px;
+}
+.lbox ul li{
+    padding: 15px 0;
+}
+.lbox a{
+    display: inline-block;
+    text-decoration: none;
+    color: #31424e;
+    object-fit: cover;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.lbox a:hover{
+    transform: scale(1.1);
+}
+.lbox .more{
+    float: right;
+    color: red;
+    font-size: 18px;
+}
+.info-item{
+    overflow:hidden;
+}
+.info-item .info-item-pic {
+    float: left;
+    left: 0 ;
+    top: 15px;
+    width: 150px;
+    height: 100px;
+    margin-right: 15px;
+}
+.info-item .info-item-pic a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+}
+.info-item .info-item-pic img {
+    width: 100%;
+    height: 100%;
+}
+.info-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+.info-item h3 a {
+    color: #262627;
+}
+a:link, a:visited, a:hover, a:active {
+    outline: medium none;
+    text-decoration: none;
+}
+.hasImg .info-item-text {
+    overflow: hidden;
+}
+.info-item .info-item-text {
+    font-family: 'Tahoma', 'simsun'!important;
+    font-size: 12px;
+    color: #888;
+    height: 44px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    padding-right: 10px;
+}
+.info-item .info-item-text a {
+    margin-left: 8px;
+    color: #2e8ed9;
+}
+.info-item .info-item-info {
+    line-height: 18px;
+    color: #60606a;
+    overflow: hidden;
+    font-size: 12px;
+}
+.info-item .info-item-info .tags {
+    float: right;
+}
+.info-item .info-item-info span {
+    color: #60606a;
+    margin-right: 8px;
+}
+.info-item .info-item-info .author i, .info-item .info-item-info .tags i {
+    color: #afafaf;
+}
+
+.info-item .info-item-info i {
+    width: 16px;
+    font-size: 13px;
+    font-size: 1.3rem ;
+}
+.tags a{
+    font-size: 12px;
+}
+.vidioteach h3{
+    border-bottom: 1px solid #282121;
+    margin-bottom: 10px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+.vidioteach h3 span{
+    border: none;
+    display: inline-block;
+    height: 50px;
+    border-bottom: 2px solid #1358a6;
+    margin-bottom: -1px;
+    font-size: 22px;
+    color: #333;
+}
+.more_02 {
+    opacity: .5;
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: right;
+    margin-top: 15px;}
+
+    .box-bd{
+        height: 620px;
+    }
+.box-bd ul li {
+        float: left;
+        width: 200px;
+        height: 270px;
+        background-color: #fff;
+        margin-right: 15px;
+        margin-bottom: 15px;
+       
+    }
+    .box-bd ul a{
+        display: inline-block;
+            text-decoration: none;
+            color: #31424e;
+            object-fit: cover;
+            transition: 0.2s;
+    }
+    .box-bd ul li img {
+        width: 100%;
+        height:220px;
+        transition: all 0.5s;
+    }
+    .box-bd ul li img:hover{
+        transform: scale(1.1);
+    }
+    .box-bd ul li h4 {
+        line-height: 1.5;
+        margin-left:5px;
+        font-size: 14px;
+        color: #050505;
+        font-weight: 400;
+    }
+    .box-bd .info {
+        margin: 0 20px 0 25px;
+        font-size: 12px;
+        color: #999;
+    }
+    .box-bd .info span {
+        color: #ff7c2d;
+    }
